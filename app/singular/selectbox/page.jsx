@@ -3,9 +3,8 @@ import CustomSelectBox from "./components/CustomSelectBox";
 
 const SelectBoxPage = () => {
   return (
-    <div className="bg-white rounded-lg mx-4 p-4">
-      <h1>This is the SelectBox page</h1>
-      <br />
+    <div className="rounded-lg mx-2 p-4">
+      <h1 className="text-black text-xl"> Select your City</h1>
       <br />
       <CustomSelectBox />
     </div>
